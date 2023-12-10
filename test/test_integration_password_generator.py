@@ -4,8 +4,8 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from services.password_generator import generate_password
-from services.password_validator import validate_password_strength
+from src.password_generator import generate_password
+from src.password_validator import validate_password_strength
 
 def test_password_generator_integration():
     length = 12

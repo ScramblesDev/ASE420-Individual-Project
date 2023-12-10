@@ -1,5 +1,5 @@
-from services import password_utils as pu
-from services import password_generator as pg
+from src import password_utils as pu
+from src import password_generator as pg
 
 def main():
     print("Welcome to the Advanced Password Generator!")

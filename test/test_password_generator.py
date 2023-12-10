@@ -3,7 +3,7 @@ import os
 import pytest
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from services.password_generator import generate_password, generate_random_password, generate_high_strength_password
+from src.password_generator import generate_password, generate_random_password, generate_high_strength_password
 
 # if the generated password has the correct length
 def test_generate_password_length():

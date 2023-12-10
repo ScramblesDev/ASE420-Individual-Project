@@ -3,7 +3,7 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from services.markov_chain import generate_pronounceable_password, build_markov_chain
+from src.markov_chain import generate_pronounceable_password, build_markov_chain
 
 # if Markov chain is built correctly from a set of words
 def test_build_markov_chain():

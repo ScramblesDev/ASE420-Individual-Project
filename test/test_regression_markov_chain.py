@@ -4,7 +4,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from services.markov_chain import generate_pronounceable_password
+from src.markov_chain import generate_pronounceable_password
 
 def test_markov_chain_regression():
     length = 8

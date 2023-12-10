@@ -4,7 +4,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from services.password_generator import generate_password
+from src.password_generator import generate_password
 
 def test_markov_chain_integration():
     length = 10

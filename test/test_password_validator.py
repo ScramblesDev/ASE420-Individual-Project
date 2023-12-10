@@ -3,7 +3,7 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from services.password_validator import validate_password_strength
+from src.password_validator import validate_password_strength
 
 # for custom characters
 def test_validate_strength_with_custom_chars():
