@@ -1,0 +1,9 @@
+Design Patterns Used
+Factory Method
+Employing factory methods in `password_generator.py` to create different types of passwords based on user input.
+
+Singleton
+The use of single instances for certain functionalities, like the English word set or the character set which ensures a single point of modification.
+
+Strategy Pattern
+Implementing different strategies for password generation (like pronounceable vs. random) that can be switched out easily depending on user preferences.
